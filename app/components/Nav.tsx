@@ -12,14 +12,14 @@ export default function Nav() {
   };
 
   const menuItems = [
-    { label: "Accueil", href: "#" },
-    { label: "La villa", href: "#" },
-    { label: "Offres", href: "#" },
-    { label: "Contact", href: "#" },
+    { label: "Accueil", href: "/" },
+    { label: "La villa", href: "/" },
+    { label: "Offres", href: "/" },
+    { label: "Contact", href: "/" },
   ];
 
   return (
-    <nav className="bg-gray-800 bg-opacity-75 fixed w-full z-10 flex items-center justify-between p-4">
+    <nav className="bg-gray-800 bg-opacity-75 fixed top-0 left-0 w-full z-10 flex items-center justify-between p-4">
       <div className="w-full">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
