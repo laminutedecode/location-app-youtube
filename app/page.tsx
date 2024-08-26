@@ -2,6 +2,7 @@ import ImageGallery from "./components/Gallery";
 import Header from "./components/Header";
 import VillaInfo from "./components/VillaInfos";
 import { Newsletter } from "./components/Newsletter";
+import { ReservationForm } from "./components/Reservations";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         hasPool={true}
         hasKitchen={true}
       />
+      <ReservationForm/>
       <Newsletter />
     </>
   );

@@ -19,7 +19,7 @@ export default function Nav() {
   ];
 
   return (
-    <nav className="bg-gray-800 bg-opacity-25 fixed w-full z-10 flex items-center justify-between p-4">
+    <nav className="bg-gray-800 bg-opacity-75 fixed w-full z-10 flex items-center justify-between p-4">
       <div className="w-full">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
