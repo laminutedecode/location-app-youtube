@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Mail } from "lucide-react"; // Import de l'icône de mail
+import { Mail } from "lucide-react"; 
 
 export function Newsletter() {
   const [email, setEmail] = useState<string>("");
@@ -44,7 +44,7 @@ export function Newsletter() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="mt-4 md:mt-0 md:ml-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-md transition-colors duration-300"
+              className="mt-4 md:mt-0 md:ml-4 bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-6 rounded-md transition-colors duration-300"
             >
               {isSubmitting ? "Envoi en cours..." : "S'inscrire"}
             </button>
