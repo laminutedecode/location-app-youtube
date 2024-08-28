@@ -5,7 +5,7 @@ import { Calendar } from "@/components/ui/calendar";
 import { Button } from "@/components/ui/button";
 import { CalendarIcon, CheckCircle2Icon } from "lucide-react";
 
-const PRICE_PER_NIGHT = 150;
+const PRICE_PER_NIGHT = 130;
 
 export function ReservationForm() {
   const [startDate, setStartDate] = useState<Date | undefined>();

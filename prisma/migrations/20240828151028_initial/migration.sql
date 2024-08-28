@@ -4,8 +4,7 @@ CREATE TABLE "User" (
     "name" TEXT,
     "email" TEXT,
     "emailVerified" DATETIME,
-    "image" TEXT,
-    "stripeCustomerId" TEXT
+    "image" TEXT
 );
 
 -- CreateTable
@@ -43,9 +42,6 @@ CREATE TABLE "VerificationToken" (
 
 -- CreateIndex
 CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
-
--- CreateIndex
-CREATE UNIQUE INDEX "User_stripeCustomerId_key" ON "User"("stripeCustomerId");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "Account_provider_providerAccountId_key" ON "Account"("provider", "providerAccountId");

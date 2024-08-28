@@ -18,7 +18,6 @@ model User {
   image         String?
   accounts      Account[]
   sessions      Session[]
-  stripeCustomerId String? @unique
 }
 
 
